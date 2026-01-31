@@ -59,8 +59,8 @@ commandsParent=(
   # Create user and set password
   "echo \"Enter username for non-root user: \""
   "read -r username"
-  "useradd -m -G wheel $username"                                 # Create user
-  "passwd $username"                                              # Set password for user
+  "useradd -m -G wheel \$username"                                 # Create user
+  "passwd \$username"                                              # Set password for user
 
   # Exit chroot
   "exit"
