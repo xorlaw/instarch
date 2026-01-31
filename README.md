@@ -1,5 +1,11 @@
 # Instarch
 
+## Warning
+
+Please note I have only tested this on virtual machines and not actual hardware. Be careful.
+
+---
+
 Instarch is a tool that automates pretty much all of the Arch Linux installation process.
 I made this because in my opinion Archinstall is bloated. All you need to do after running Instarch is:
 
